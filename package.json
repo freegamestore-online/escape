@@ -1,14 +1,14 @@
 {
-  "name": "APPNAME",
+  "name": "escape",
   "private": true,
   "packageManager": "pnpm@10.30.3",
   "engines": { "node": ">=22" },
   "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
   "scripts": {
-    "dev": "pnpm --filter @APPNAME/web dev",
-    "build": "pnpm --filter @APPNAME/web build",
-    "preview": "pnpm --filter @APPNAME/web preview",
-    "typecheck": "pnpm --filter @APPNAME/web exec tsc -b",
-    "test": "pnpm --filter @APPNAME/web test"
+    "dev": "pnpm --filter @escape/web dev",
+    "build": "pnpm --filter @escape/web build",
+    "preview": "pnpm --filter @escape/web preview",
+    "typecheck": "pnpm --filter @escape/web exec tsc -b",
+    "test": "pnpm --filter @escape/web test"
   }
 }
